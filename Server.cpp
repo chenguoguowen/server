@@ -30,12 +30,12 @@ CServerApp::CServerApp()
 }
 
 
-// 唯一的一个 C服务器App 对象
+// 唯一的一个 CServerApp 对象
 
 CServerApp theApp;
 
 
-// C服务器App 初始化
+// CServerApp 初始化
 
 BOOL CServerApp::InitInstance()
 {

@@ -43,7 +43,7 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 
-// C服务器Dlg 对话框
+// CServerDlg 对话框
 
 
 
@@ -300,7 +300,11 @@ void CServerDlg::OnClose()
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 	if(m_tag)
+	{ 
+		MessageBox( L"先停止服务器！");
 		return;
+	}
+		
 	Write();
 	CDialogEx::OnClose();
 }

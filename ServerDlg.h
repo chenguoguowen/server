@@ -1,5 +1,5 @@
 
-// 服务器Dlg.h : 头文件
+// ServerDlg.h : 头文件
 //
 
 #pragma once
@@ -9,7 +9,7 @@
 #include "afxwin.h"
 #include "afxcmn.h"
 
-// C服务器Dlg 对话框
+// CServerDlg 对话框
 class CServerDlg : public CDialogEx
 {
 // 构造
